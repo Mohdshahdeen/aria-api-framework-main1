@@ -1,0 +1,34 @@
+# Gradle files
+.gradle/
+build/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+bin/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test-specific outputs
+target/
+allure-results/
+allure-report/
+pacts/
+.playwright-mcp/
+.codegraph/
+.codebase-memory/
+codebase-memory/
+.agent/index-codebase-memory.sh
+/allure-overview.png
+
+# Local sensitive configs (if any)
+.env
+.env.*
+!.env.example
+*.local.properties
+*.log
